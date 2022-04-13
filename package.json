@@ -1,0 +1,22 @@
+{
+  "name": "@tightbeam/terraform",
+  "version": "0.0.1",
+  "description": "Tightbeam terraform plugin",
+  "private": false,
+  "homepage": "https://tightbeam.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tightbeam/terraform.git"
+  },
+  "keywords": [
+    "tightbeam",
+    "terraform"
+  ],
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "author": "Urza Jaddo <skaltura@yandex.ru>",
+  "dependencies": {
+    "@tightbeam/core": "^0.0.1"
+  }
+}
